@@ -103,19 +103,19 @@ h5{
 }
 
 .card1{
-    background-image: url("saint.jpg");
+    background-image: url(saintmartin.jpg);
 }
 
 .card2{
-    background-image: url("cox.jpg");
+    background-image: url(cox.jpg);
 }
 
 .card3{
-    background-image: url("khag.jpg");
+    background-image: url(khag.jpg);
 }
 
 .card4{
-    background-image: url("rang.jpg");
+    background-image: url(rangamati.jpg);
 }
 
 .card:hover{
