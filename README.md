@@ -3,7 +3,7 @@
 A responsive tourism website for Bangladesh built with HTML5 and CSS3.
 
 ## Live Demo
- [View Live Site](https://belhaj2004.github.io/First-HTML-Project)
+ [View Live Site](https://belhaj2004.github.io/Bangladesh-Tourism-Website/)
 
 ## Features
 - Responsive layout
