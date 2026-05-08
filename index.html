@@ -1,68 +1,94 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="main.css">
-        <title>Webpage for Bangladesh</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="navbar">
-                <img src="bangladesh_round_icon_64.png" alt="Bd flag" class="bdlogo">
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Location</a></li>
-                        <li><a href="">History</a></li>
-                        <li><a href="">About</a></li>
-                    </ul>
-                </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <i class="fa fa-bars"></i>
-            </div>
+  <title>Explore Bangladesh | Tourism Landing Page</title>
 
-            <div class="row">
-                <div class="col">
-                    <h1>Bangladesh</h1>
-                    <p>
-                        Bangladesh, country of South Asia, located in the delta of the Padma (Ganges [Ganga]) and Jamuna (Brahmaputra) rivers in the northeastern part of the Indian subcontinent.
-                    </p>
-                    <button type="button">Explore</button>
-                </div>
-                <div class="col">
-                    <div class="card card1">
-                        <p>Hello</p>
-                        <h5>Saint Martin</h5>
-                        
-                    </div>
+  <meta
+    name="description"
+    content="A responsive tourism landing page showcasing popular travel destinations in Bangladesh."
+  />
 
-                    <div class="card card2">
-                        <p>Hello</p>
-                        <h5>Cox Bazar</h5>
-                       
-                    </div>
+  <link rel="stylesheet" href="main.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
 
-                    <div class="card card3">
-                        <p>Hello</p>
-                        <h5>Khagrachari</h5>
-                       
-                    </div>
+<body>
+  <main class="container">
+    <header class="navbar">
+      <a href="#" class="logo-link" aria-label="Bangladesh tourism home">
+        <img
+          src="bangladesh_round_icon_64.png"
+          alt="Bangladesh flag icon"
+          class="bdlogo"
+        />
+      </a>
 
-                    <div class="card card4">
-                        <p>Hello</p>
-                        <h5>Rangamati</h5>
-                       
-                    </div>
-    
-                </div>
-                
-    
-            </div>
-            
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#culture">Culture</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
 
-        </div>
+      <button class="menu-button" aria-label="Open navigation menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </header>
 
-        
-        
-    </body>
+    <section class="row" id="home">
+      <div class="col hero-content">
+        <p class="eyebrow">Discover South Asia</p>
+
+        <h1>Explore Bangladesh</h1>
+
+        <p>
+          Bangladesh is a beautiful South Asian country known for its rivers,
+          green landscapes, cultural heritage, beaches, and welcoming people.
+          From the coastal beauty of Cox’s Bazar to the peaceful hills of
+          Rangamati, Bangladesh offers unforgettable travel experiences.
+        </p>
+
+        <a href="#destinations" class="explore-button">Explore Destinations</a>
+      </div>
+
+      <section class="col destination-grid" id="destinations" aria-label="Popular destinations">
+        <article class="card card1">
+          <div class="card-content">
+            <h2>Saint Martin</h2>
+            <p>Bangladesh’s only coral island, known for blue water, beaches, and peaceful ocean views.</p>
+          </div>
+        </article>
+
+        <article class="card card2">
+          <div class="card-content">
+            <h2>Cox’s Bazar</h2>
+            <p>Home to one of the world’s longest natural sea beaches and a major tourism destination.</p>
+          </div>
+        </article>
+
+        <article class="card card3">
+          <div class="card-content">
+            <h2>Khagrachari</h2>
+            <p>A scenic hill district filled with waterfalls, forests, caves, and mountain views.</p>
+          </div>
+        </article>
+
+        <article class="card card4">
+          <div class="card-content">
+            <h2>Rangamati</h2>
+            <p>Known for Kaptai Lake, tribal culture, hanging bridges, and peaceful hill landscapes.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
 </html>
